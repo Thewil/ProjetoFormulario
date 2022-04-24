@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    
+    
+
+
+    <div class="container">
+        <div class="header">
+            <h2>Conta usuario</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="controladora">
+                <label for="name">Nome</label>
+                <input type="text" id="user" name="name" placeholder="escreva seu nome">
+            </div>
+
+            <div class="controladora">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="escreva seu email">
+            </div>
+
+            <div class="controladora">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="escreva sua Senha">
+            </div>
+
+            <div class="nvselecao">
+                <label >
+                    <input type="radio" name="dev" value="frontend">Front
+                </label>
+                <label >
+                    <input type="radio" name="dev" value="backend">Back
+                </label>
+                <label >
+                    <input type="radio" name="dev" value="fullstack">Full
+                </label>
+
+                <label></label>
+                <select id="nivel">
+                    <option value="" selected disabled>Nivel</option>
+                    <option value="">Junior</option>
+                    <option value="">Pleno</option>
+                    <option value="">Senior</option>
+                    <option value="">Pka das Galaxia</option>
+                </select>
+            </div>
+                <div class="saberprog">
+                    <input type="checkbox" name="conhecimento" value="HTML">
+                    <label for="conhecimento">HTML</label>
+                    <input type="checkbox"  name="conhecimento" value="CSS">
+                    <label for="conhecimento">CSS</label>
+                    <input type="checkbox" " name="conhecimento" value="javascrip">
+                    <label for="conhecimento">Javascript</label>
+                    
+                </div>
+
+                <div class="saberprog2">
+                    <input type="checkbox"  name="conhecimento" value="python">
+                    <label for="conhecimento">Python</label>
+                    <input type="checkbox"  name="conhecimento" value="java">
+                    <label for="conhecimento">Java</label>
+                    <input type="checkbox"  name="conhecimento" value="c#">
+                    <label for="conhecimento">C#</label>
+                </div>
+           
+
+            <div class="informe">
+                <label> infomações</label>
+                <textarea class="areatext" placeholder="um pouco de seus conhecimentos">
+                                
+                </textarea>
+            </div>
+            <div class="frame">
+            <button class="btn btn-desing"><span>Enviar</span></button>
+           </div>
+
+        </form>
+
+    </div>
+
+
+</body>
+</html>
